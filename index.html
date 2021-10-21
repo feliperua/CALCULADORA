@@ -1,0 +1,34 @@
+<!--NACIMIENTO: 20 octubre de 2020
+	Actualizado 02 dic de 2020
+OBJETIVO: Mostrar los elementos básicos de una página web
+DESCRIPCIÓN: En este código se mustra el usno de etiquetas básicas, ademas de unos atributos, mostrado desde la estructura mas
+básica posible para crear una web, ademas incluye alguno elementos de meta-->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>MI CALCULADORA</title>
+		<meta charset="UTF-8"/>
+		<meta name ="author" content="Ramon Rua"/>
+		<meta name = "keywords" content="CALCULADORA"/>
+		<!-- Para vincular estilos a traves de archivo indepediente -->
+		<link rel= "stylesheet" type = "text/css" href="./style.css"/>
+		<!-- Si lo que se va usar es definir los estilos en este mismo archivo se debe usar esta etiqueta (notese como en ambos casos es decir en el caso de vincular el archivo o de escribirlo en el mismo HTML, estilos va en head) -->
+	</head>
+
+	<body>
+			<h1> CALCULADORA </h1>
+		<p> Esta es mi primera calculadora</p>
+        <input id='numero1'  type='text' placeholder="numero 1"/>
+        <input id='numero2'  type='text' placeholder="numero 2"/> <br>
+        <input type="button" onclick="Osuma()" value="+">
+        <input type="button" onclick="Oresta()" value="-">
+        <input type="button" onclick="Omultiplica()" value="*">
+        <input type="button" onclick="Odivide()" value="/"><br>
+        <input id='resultado' type='text' />
+	</body>
+
+	<script type="text/javascript" src ="./main.js"/>
+    </script>
+	
+</html>
