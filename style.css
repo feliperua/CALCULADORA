@@ -1,0 +1,23 @@
+body{
+    background-color: lightgoldenrodyellow ;
+    border: 5px solid black;
+    margin: 200px 500px 200px 500px;
+    text-align: center;
+    
+}
+
+h1{
+    color: grey;
+    
+}
+input{
+    width: 100px;
+    color: black;
+    background-color:lightskyblue;
+}
+#numero1,#numero2,#resultado {
+    width: 60px;
+    background-color:white;    
+}
+
+
